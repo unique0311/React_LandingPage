@@ -1,0 +1,1113 @@
+/* ---Landing main style START--- */
+
+.landing_container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  padding-top: 130px;
+}
+
+.landing_mainPage {
+  display: flex;
+  width: 100%;
+  height: 850px;
+  background: #f5f5f5;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.mainPage_title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 140px;
+  padding-top: 100px;
+  width: 400px;
+}
+
+.mainPage_title h5 {
+  font-family: 'TTHoves';
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  color: #191A28;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  z-index: 100;
+}
+
+.mainPage_title h4 {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+}
+
+.landing_public_Open {
+  box-sizing: border-box;
+  background: rgba(237, 237, 238, 0.2);
+  border-radius: 1000px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 10.5px;
+  line-height: 20px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 5px 20px;
+  color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+}
+
+.mainPage_title_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 25px;
+  z-index: 100;
+}
+
+.explore_button_setting {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 27px;
+  letter-spacing: -0.01em;
+  color: #fff;
+  background: #7AC58D;
+  border-radius: 7px;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.mainPage_login_buttonSetting {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 27px;
+  letter-spacing: -0.01em;
+  color: #696A7C;
+  background: #f5f5f5;
+  border-radius: 7px;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dotImage_setting_One {
+  display: none;
+  position: absolute;
+  right: 40%;
+  top: 180px;
+  z-index: 100;
+}
+
+.dotImage_setting_Two {
+  display: none;
+  position: absolute;
+  right: 20%;
+  top: 500px;
+  z-index: 100;
+}
+
+.mapImage_setting {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+.mainPage_search {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(237, 237, 238, 0.7);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 9px;
+  z-index: 100;
+  width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-left: 1000px;
+}
+
+.mainPage_search input {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  color: #4D4D55;
+  border: none;
+  width: 260px;
+  background: transparent;
+  padding-left: 25px;
+}
+
+.mainPage_search input:focus {
+  outline: none;
+}
+
+.mainPage_search button img {
+  width: 24px;
+  height: 24px;
+}
+
+.mainPage_search button {
+  border: none;
+}
+/* ---Landing main style END--- */
+
+/* ---Our Products style START--- */
+
+.landing_ourProducts {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  background: #eeeeee;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products_title {
+  font-size: 32px;
+  font-family: 'TTHoves';
+  font-weight: bold;
+  letter-spacing: -0.01em;
+  color: #191A28;
+  line-height: 52px;
+}
+
+.landing_ourProducts button {
+  font-family: 'Inter';
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: #fff;
+  background: #7AC58D;
+  border-radius: 7px;
+  border: none;
+  margin-top: 50px;
+  padding: 15px 35px;
+  cursor: pointer;
+}
+
+.ourProducts_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* product Card style START */
+
+.productCard_container {
+  width: 265px;
+  height: 182px;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 28px;
+  position: relative;
+}
+
+.productCard_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 18px;
+}
+
+.productCard_title img {
+  padding-right: 25px;
+  width: 35px;
+  height: 45px;
+}
+
+.productCard_title_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.productCard_title_text p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'TTHoves';
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #191A28;
+}
+
+.productCard_detail {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  color: #191A28;
+}
+
+.productCard_badge {
+  position: absolute;
+  background: #7AC58D;
+  border-radius: 100px;
+  width: 48px;
+  height: 48px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  right: -20px;
+  top: -20px;
+}
+
+.productCard_badge p {
+  font-family: 'TTHoves';
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 11px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* product Card style END */
+
+/* ---Our Products style END--- */
+
+/* ---How We Compare style START--- */
+
+.landing_howWeCompare {
+  display: flex;
+  width: 100%;
+  height: 700px;
+  background: #f5f5f5;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.howWeCompare_title {
+  display: flex;
+  flex-direction: column;
+  padding-left: 140px;
+  align-items: flex-start;
+}
+
+.howWeCompare_title h5 {
+  font-family: 'TTHoves';
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  color: #191A28;
+  margin-bottom: 20px;
+}
+
+.howWeCompare_title p {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #191A28;
+  opacity: 0.6;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.howwecompare_main {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.table_title {
+  width: 1400px;
+  border-collapse: collapse;
+  background: transparent;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.table_detail {
+  border-collapse: collapse;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 1400px;
+  background: #EFEFEF;
+}
+
+td {
+  text-align: center;
+  padding: 16px;
+  font-size: 16px;
+  font-family: 'TTHoves';
+  font-weight: bold;
+  line-height: 30px;
+  color: #191A28;
+  padding-left: 29px;
+}
+
+th {
+  font-family: 'TTHoves';
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 50px;
+  letter-spacing: -0.01em;
+  color: #191A28;
+  padding-bottom: 20px;
+}
+
+td:first-child {
+  text-align:  left;
+}
+
+tr:nth-child(even) {
+  background: #B5B5B5;
+}
+
+.howwecompare_selected {
+  position: absolute;
+  width: 200px;
+  height: 600px;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 9px;
+  left: 38%;
+  top: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.howwecompare_selected p {
+  font-family: 'TTHoves';
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 50px;
+  letter-spacing: -0.01em;
+  color: #191A28;
+}
+
+.howwecompare_selected button {
+  margin-bottom: 30px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 27px;
+  letter-spacing: -0.01em;
+  color: #fff;
+  background: #6FB756;
+  border-radius: 7px;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ---How We Compare style END--- */
+
+/* ---Pricing Plans style START--- */
+
+.landing_pricingPlans {
+  display: flex;
+  width: 100%;
+  height: 900px;
+  background: #f5f5f5;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricingPlans_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricingPlans_title h5 {
+  font-family: 'TTHoves';
+  font-size: 32px;
+  line-height: 52px;
+  font-weight: 600;
+  color: #191A28;
+  letter-spacing: -0.01em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+}
+
+.pricingPlans_title p {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #191A28;
+  opacity: 0.6;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.pricingPlans_card {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.pricingPlans_contactUs {
+  box-sizing: border-box;
+  background: #ededee77;
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 10.5px;
+  line-height: 20px;
+  color: #191A28;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 5px 20px;
+}
+
+/* pricing Card style START */
+
+.pricingCard_container {
+  box-sizing: border-box;
+  width: 265px;
+  height: 415px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 9px;
+  margin-left: 30px;
+  margin-right: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.pricingCard_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricingCard_title img {
+  width: 24px;
+  height: 30px;
+  padding-right: 15px;
+}
+
+.pricingCard_title p {
+  font-family: "TTHoves";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #191A28;
+}
+
+.pricingCard_startingFrom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricingCard_startingFrom p {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 10.5px;
+  color: #191A28;
+  opacity: 0.5;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pricingCard_startingFrom h5 {
+  font-family: 'TTHoves';
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: -0.01em;
+  color: #191A28;
+  margin-top: 0;
+}
+
+.pricingCard_detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pricingCard_detail_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricingCard_detail_container img {
+  width: 20px;
+  height: 20px;
+  padding-right: 15px;
+}
+
+.pricingCard_detail_container p {
+  font-family: 'TTHoves';
+  font-size: 16px;
+  font-weight: 500;
+  color: #A6B0BF;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.pricingCard_container button {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  color: #fff;
+  background: #6FB756;
+  border-radius: 7px;
+  border: none;
+  margin-top: 20px;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+
+.pricingCard_badge {
+  width: 54px;
+  height: 54px;
+  display: none;
+  flex-direction: column;
+  background: #6FB756;
+  border-radius: 200px;
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricingCard_badge p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'TTHoves';
+  font-weight: 600;
+  font-size: 11.5px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+/* pricing Card style END */
+
+/* ---Pricing Plans style END--- */
+
+/* ---FAQ style START--- */
+
+/* FAQ main style */
+
+.landing_faq {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 650px;
+  background: #eeeeee;
+  justify-content: center;
+}
+
+.faq_title {
+  display: flex;
+  flex-direction: column;
+  padding-left: 140px;
+  align-items: flex-start;
+}
+
+.faq_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+
+.faqmain_button {
+  color: white;
+  background: #6FB756;
+  border-radius: 7px;
+  font-family: 'Inter';
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  border: none;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.faq_title h5 {
+  font-family: 'TTHoves';
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 52px;
+  color: #191A28;
+}
+
+.faq_title p {
+  font-size: 13px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-synthesis: 24px;
+  letter-spacing: -0.01em;
+  color: #191A28;
+  opacity: 0.6;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.accordion_landing_main {
+  display: flex;
+  height: 370px;
+}
+
+/* FAQ main style END */
+
+/* FAQ accordion style START */
+
+.accordion_item {
+  width: 700px;
+  border: 1.5px solid #272E3F1A;
+  border-radius: 8px;
+  color: #191A28;
+  font-family: 'TTHoves';
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  list-style: none;
+}
+
+.accordion_answer {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 100;
+  color: #636875;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.accordion_button {
+  border: 1.5px solid #272E3F1A;
+  border-radius: 8px;
+  color: #191A28;
+  font-family: 'TTHoves';
+  font-size: 25px;
+  font-weight: bold;
+  background: transparent;
+  padding: 6px 15px;
+}
+
+.accordion_answerWrapper {
+  height: 0;
+  overflow: hidden;
+  transition: height ease 0.2s;
+}
+
+.accordion_answerWrapper.accordion_open {
+  height: auto;
+}
+
+.accordion_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* FAQ accordion style END */
+
+/* ---FAQ style END--- */
+
+
+@media (max-width: 1420px) {
+  .table_detail {
+    width: 1300px;
+  }
+
+  .table_title {
+    width: 1300px;
+  }
+
+  .howwecompare_selected {
+    left: 34%;
+  }
+  
+  .mainPage_search {
+    margin-left: 900px;
+  }
+}
+
+@media (max-width: 1320px) {
+  .table_detail {
+    width: 1000px;
+  }
+
+  .table_title {
+    width: 1000px;
+  }
+
+  .howwecompare_selected {
+    left: 35%;
+  }
+  
+  .mainPage_search {
+    margin-left: 700px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .faq_title {
+    padding-left: 70px;
+  }
+
+  .pricingCard_container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .howwecompare_selected {
+    left: 33%;
+    width: 160px;
+  }
+
+  .table_detail {
+    width: 800px;
+  }
+
+  .table_title {
+    width: 800px;
+  }
+
+  .howWeCompare_title {
+    padding-left: 70px;
+  }
+
+  .productCard_container {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .mainPage_search {
+    margin-left: 500px;
+  }
+
+  .mainPage_title {
+    padding-left: 70px;
+  }
+
+}
+
+@media (max-width: 920px) {
+  .faq_title {
+    padding-left: 40px;
+  }
+
+  .faq_title h5 {
+    margin-bottom: 35px;
+  }
+
+  .accordion_item {
+    width: 460px;
+    font-size: 16px;
+    padding-left: 15px;
+    margin-right: 15px;
+  }
+
+  .accordion_button {
+    font-size: 22px;
+  }
+
+  .landing_pricingPlans {
+    height: 1750px;
+    flex-direction: column;
+  }
+
+  .pricingPlans_card {
+    flex-direction: column;
+  }
+
+  .pricingCard_container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+  }
+
+  .howWeCompare_title {
+    padding-left: 50px;
+  }
+
+  .table_title {
+    width: 580px;
+  }
+
+  .table_detail {
+    width: 580px;
+  }
+
+  .howwecompare_selected {
+    width: 110px;
+    top: 28%;
+    height: 590px;
+  }
+
+  .landing_ourProducts {
+    height: 850px;
+  }
+
+  .products_title {
+    margin-top: 0;
+  }
+
+  .ourProducts_card {
+    flex-direction: column;
+  }
+
+  .productCard_container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .mainPage_title {
+    padding-left: 40px;
+    padding-top: 60px;
+  }
+
+  .mainPage_search {
+    margin-left: 220px;
+  }
+
+  td {
+    font-size: 13px;
+  }
+
+  .mapImage_setting {
+    right: -130px;
+  }
+}
+
+@media (max-width: 610px) {
+  .faq_title {
+    padding-left: 20px;
+  }
+
+  .faq_title h5 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+
+  .faq_title p {
+    font-size: 12px;
+  }
+
+  .accordion {
+    padding-inline-start: 10px;
+  }
+
+  .accordion_item {
+    width: 300px;
+    font-size: 10px;
+    padding-left: 10px;
+    margin-right: 5px;
+  }
+
+  .accordion_answer {
+    font-size: 8px;
+  }
+
+  .accordion_button {
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+
+  .pricingPlans_title h5 {
+    font-size: 25px;
+  }
+
+  .pricingPlans_title p {
+    font-size: 12px;
+  }
+
+  .table_title {
+    width: 350px;
+  }
+
+  .table_detail {
+    width: 350px;
+  }
+
+  td {
+    font-size: 10px;
+    padding: 10px;
+    padding-left: 10px;
+  }
+
+  .howwecompare_selected {
+    width: 65px;
+    top: 33%;
+    height: 500px;
+  }
+
+  .howwecompare_selected p {
+    font-size: 20px;
+  }
+
+  .howwecompare_selected button {
+    font-size: 7px;
+    line-height: 23px;
+    padding: 0px 10px;
+  }
+
+  .mainPage_title {
+    padding-left: 20px;
+    padding-top: 40px;
+    width: 340px;
+  }
+
+  .landing_public_Open {
+    padding: 3px 15px;
+  }
+
+  .mainPage_title h5 {
+    font-size: 41px;
+  }
+
+  .mainPage_title h4 {
+    font-size: 13px;
+  }
+
+  .mainPage_search {
+    margin-left: 20px;
+  }
+
+  .mapImage_setting {
+    right: -240px;
+    bottom: -200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .faq_title {
+    padding-left: 10px;
+  }
+
+  .faq_title h5 {
+    font-size: 24px;
+  }
+
+  .accordion {
+    padding-inline-start: 5px;
+  }
+
+  .accordion_item {
+    width: 265px;
+    font-size: 9px;
+    padding-left: 5px;
+    margin-right: 5px;
+  }
+
+  .accordion_answer {
+    font-size: 8px;
+  }
+
+  .pricingCard_container {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 275px;
+  }
+  
+  .pricingPlans_title h5 {
+    font-size: 24px;
+  }
+
+  .table_title {
+    width: 300px;
+  }
+
+  .table_detail {
+    width: 300px;
+  }
+
+  td {
+    font-size: 10px;
+    padding: 5px;
+    padding-left: 10px;
+  }
+
+  .howwecompare_selected {
+    width: 60px;
+    top: 37%;
+    height: 450px;
+  }
+
+  .howWeCompare_title h5 {
+    font-size: 35px;
+  }
+
+  .howWeCompare_title {
+    padding-left: 20px;
+  }
+
+  .mainPage_title {
+    padding-left: 10px;
+    width: 300px;
+  }
+
+  .mainPage_title h5 {
+    font-size: 39px;
+  }
+
+  .dotImage_setting_Two {
+    right: 0;
+    top: 430px;
+  }
+
+  .mainPage_search {
+    margin-left: 10px;
+    width: 300px;
+  }
+
+  .mainPage_search input {
+    width: 230px;
+    padding-left: 20px;
+  }
+
+  .mapImage_setting {
+    right: -340px;
+  }
+}

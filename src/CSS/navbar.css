@@ -1,0 +1,248 @@
+.navbar_container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: none;
+  width: 100%;
+  height: 130px;
+  z-index: 999;
+}
+
+.latest_alert {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background: #7AC58D;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navbar_maincontainer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background: #f5f5f5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_setting {
+  font-size: 21px;
+  font-family: 'TTHoves';
+  font-weight: bold;
+  color: #191A28;
+  text-decoration: none;
+  padding-left: 120px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.main_navbarDetail {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  justify-content: space-between;
+}
+
+.navbarDetail_link {
+  font-family: 'TTHoves';
+  font-size: 18px;
+  font-weight: bold;
+  color: #191A28;
+  text-decoration: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.login_buttonSetting {
+  display: flex;
+  flex-direction: row;
+  padding-right: 120px;
+}
+
+.login_setting {
+  background: #f5f5f5;
+  padding: 8px 20px;
+  font-family: 'Inter';
+  font-size: 15px;
+  margin-right: 5px;
+  color: #919299;
+  border: none;
+  cursor: pointer;
+}
+
+.signup_setting {
+  background: #7AC58D;
+  padding: 8px 20px;
+  font-family: 'Inter';
+  font-size: 15px;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger_menu {
+  display: none;
+}
+
+.dropdownMenu_container {
+  display: none;
+}
+
+
+@media (max-width: 1130px) {
+  .logo_setting {
+    padding-left: 40px;
+  }
+
+  .main_navbarDetail {
+    width: 600px;
+  }
+
+  .login_buttonSetting {
+    padding-right: 80px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .login_buttonSetting {
+    padding-right: 60px;
+  }
+
+  .main_navbarDetail {
+    width: 500px;
+  }
+
+  .navbarDetail_link {
+    font-size: 16px;
+  }
+
+  .logo_setting {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 920px) {
+  .main_navbarDetail {
+    display: none;
+  }
+
+
+  .hamburger_menu {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .hamburger_menu div {
+    width: 100%;
+    height: 7px;
+    background: #7AC58D;
+  }
+
+  .backdrop {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.01);
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .backdrop.showmenu {
+    display: none;
+  }
+
+  .dropDrawer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background: #f5f5f5;
+    position: fixed;
+    top: -270px;
+    left: 0;
+    z-index: 100;
+    transform: translateY(-100%);
+  }
+
+  .dropDrawer.showmenu {
+    transform: translateY(100%);
+  }
+
+  .dropdownMenu_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .navbarDetail_link {
+    widows: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 32px;
+  }
+
+  .navbarDetail_link:last-child {
+    border: none;
+  }
+
+  .login_buttonSetting {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 610px) {
+  .latest_alert {
+    font-size: 12px;
+  }
+
+  .logo_setting {
+    padding-left: 15px;
+  }
+
+  .login_buttonSetting {
+    padding-left: 0px;
+  }
+
+  .login_setting {
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+
+  .signup_setting {
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+
+  .hamburger_menu {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+  }
+
+  .hamburger_menu div {
+    height: 6px;
+  }
+}
+
+@media (max-width: 400px) {
+  .latest_alert {
+    font-size: 10px;
+  }
+}
